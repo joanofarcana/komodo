@@ -311,6 +311,14 @@
             }
         },
         {
+            "Key": "d4149eec-7bbc-4cff-8e0d-c8599703a7fb",
+            "Value": {
+                "id": "001247dd-5f1f-4dce-b22f-1abe39ad444c",
+                "resourcePath": "sprites\\purp\\purp.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e3d2254c-c763-4e06-8a4d-06a88278c7ed",
             "Value": {
                 "id": "6d7c8015-45c5-4126-9910-93eeb4f53edc",

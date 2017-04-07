@@ -20,8 +20,9 @@ if (l506FA40B_0)
 			/// @DnDVersion : 1
 			/// @DnDHash : 652DFE8D
 			/// @DnDParent : 3A41A9CF
+			/// @DnDArgument : "expr_relative" "1"
 			/// @DnDArgument : "var" "bar_variable"
-			bar_variable = 0;
+			bar_variable += 0;
 			
 	
 	

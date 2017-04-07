@@ -31,6 +31,25 @@ if (l07BE53B5_0)
 	
 	}
 
+	/// @DnDAction : YoYo Games.Common.Else
+	/// @DnDVersion : 1
+	/// @DnDHash : 1415B8B8
+	/// @DnDParent : 07BE53B5
+	else
+	{
+		
+	
+			/// @DnDAction : YoYo Games.Common.Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 57612BC4
+			/// @DnDParent : 1415B8B8
+			/// @DnDArgument : "var" "bar_stress.stress_health"
+			bar_stress.stress_health = 0;
+			
+	
+	
+	}
+
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 7BA6501D
@@ -55,29 +74,34 @@ if (l07BE53B5_0)
 	
 	}
 
-	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDAction : YoYo Games.Common.Else
 	/// @DnDVersion : 1
-	/// @DnDHash : 7DEE48E7
+	/// @DnDHash : 12F6EF38
 	/// @DnDParent : 07BE53B5
-	/// @DnDArgument : "var" "bar_knowledge.knowledge_health"
-	/// @DnDArgument : "op" "3"
-	/// @DnDArgument : "value" "95"
-	if(bar_knowledge.knowledge_health <= 95)
+	else
 	{
 		
 	
 			/// @DnDAction : YoYo Games.Common.Variable
 			/// @DnDVersion : 1
-			/// @DnDHash : 068B8379
-			/// @DnDParent : 7DEE48E7
-			/// @DnDArgument : "expr" "5"
-			/// @DnDArgument : "expr_relative" "1"
-			/// @DnDArgument : "var" "bar_knowledge.knowledge_health"
-			bar_knowledge.knowledge_health += 5;
+			/// @DnDHash : 190D6E43
+			/// @DnDParent : 12F6EF38
+			/// @DnDArgument : "var" "bar_danger.danger_health"
+			bar_danger.danger_health = 0;
 			
 	
 	
 	}
+
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 068B8379
+	/// @DnDParent : 07BE53B5
+	/// @DnDArgument : "expr" "5"
+	/// @DnDArgument : "expr_relative" "1"
+	/// @DnDArgument : "var" "bar_knowledge.knowledge_health"
+	bar_knowledge.knowledge_health += 5;
+	
 
 
 }

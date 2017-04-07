@@ -9,30 +9,6 @@ if (l34D42FBB_0)
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
-	/// @DnDHash : 60240DA3
-	/// @DnDParent : 34D42FBB
-	/// @DnDArgument : "var" "bar_trust.trust_health"
-	/// @DnDArgument : "op" "3"
-	/// @DnDArgument : "value" "90"
-	if(bar_trust.trust_health <= 90)
-	{
-		
-	
-			/// @DnDAction : YoYo Games.Common.Variable
-			/// @DnDVersion : 1
-			/// @DnDHash : 182F544A
-			/// @DnDParent : 60240DA3
-			/// @DnDArgument : "expr" "10"
-			/// @DnDArgument : "expr_relative" "1"
-			/// @DnDArgument : "var" "bar_trust.trust_health"
-			bar_trust.trust_health += 10;
-			
-	
-	
-	}
-
-	/// @DnDAction : YoYo Games.Common.If_Variable
-	/// @DnDVersion : 1
 	/// @DnDHash : 094B9FEC
 	/// @DnDParent : 34D42FBB
 	/// @DnDArgument : "var" "bar_danger.danger_health"
@@ -55,29 +31,44 @@ if (l34D42FBB_0)
 	
 	}
 
-	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDAction : YoYo Games.Common.Else
 	/// @DnDVersion : 1
-	/// @DnDHash : 13CBD9D6
+	/// @DnDHash : 13AE726D
 	/// @DnDParent : 34D42FBB
-	/// @DnDArgument : "var" "bar_knowledge.knowledge_health"
-	/// @DnDArgument : "op" "3"
-	/// @DnDArgument : "value" "95"
-	if(bar_knowledge.knowledge_health <= 95)
+	else
 	{
 		
 	
 			/// @DnDAction : YoYo Games.Common.Variable
 			/// @DnDVersion : 1
-			/// @DnDHash : 67FF0022
-			/// @DnDParent : 13CBD9D6
-			/// @DnDArgument : "expr" "5"
-			/// @DnDArgument : "expr_relative" "1"
-			/// @DnDArgument : "var" "bar_knowledge.knowledge_health"
-			bar_knowledge.knowledge_health += 5;
+			/// @DnDHash : 7FA68469
+			/// @DnDParent : 13AE726D
+			/// @DnDArgument : "var" "bar_danger.danger_health"
+			bar_danger.danger_health = 0;
 			
 	
 	
 	}
+
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 67FF0022
+	/// @DnDParent : 34D42FBB
+	/// @DnDArgument : "expr" "5"
+	/// @DnDArgument : "expr_relative" "1"
+	/// @DnDArgument : "var" "bar_knowledge.knowledge_health"
+	bar_knowledge.knowledge_health += 5;
+	
+
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 182F544A
+	/// @DnDParent : 34D42FBB
+	/// @DnDArgument : "expr" "10"
+	/// @DnDArgument : "expr_relative" "1"
+	/// @DnDArgument : "var" "bar_trust.trust_health"
+	bar_trust.trust_health += 10;
+	
 
 
 }
