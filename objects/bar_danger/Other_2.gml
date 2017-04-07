@@ -1,7 +1,21 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
-/// @DnDHash : 559C866B
-/// @DnDArgument : "var" "danger_health"
-danger_health = 0;
+/// @DnDHash : 185547C4
+/// @DnDArgument : "var" "value"
+value = 0;
 
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 7229E5FC
+/// @DnDArgument : "expr" "false"
+/// @DnDArgument : "var" "Bvisible"
+Bvisible = false;
+
+
+/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
+/// @DnDVersion : 1
+/// @DnDHash : 279E7B25
+/// @DnDArgument : "msg" ""variables initialized""
+show_debug_message(string("variables initialized"));
 

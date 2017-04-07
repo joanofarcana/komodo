@@ -5,7 +5,7 @@
     "name": "bar_danger",
     "eventList": [
         {
-            "id": "7a3250aa-a580-4b2d-9d4f-a8e204123df9",
+            "id": "41a125e2-5b47-416b-a1dd-f33425515900",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": true,
@@ -15,7 +15,7 @@
             "m_owner": "9a866c03-ff7c-4207-9450-fcabebcefa61"
         },
         {
-            "id": "dfd1be4e-8867-4637-9605-487220619965",
+            "id": "abc2ebae-0567-4731-9b73-bfa1ebe0208a",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": true,

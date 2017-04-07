@@ -7,68 +7,32 @@ if (l34D42FBB_0)
 {
 	
 
-	/// @DnDAction : YoYo Games.Common.If_Variable
-	/// @DnDVersion : 1
-	/// @DnDHash : 094B9FEC
+	/// @DnDAction : YoYo Games.Common.Execute_Script
+	/// @DnDVersion : 1.1
+	/// @DnDHash : 68AD866F
 	/// @DnDParent : 34D42FBB
-	/// @DnDArgument : "var" "bar_danger.danger_health"
-	/// @DnDArgument : "op" "4"
-	/// @DnDArgument : "value" "5"
-	if(bar_danger.danger_health >= 5)
-	{
-		
-	
-			/// @DnDAction : YoYo Games.Common.Variable
-			/// @DnDVersion : 1
-			/// @DnDHash : 2467603C
-			/// @DnDParent : 094B9FEC
-			/// @DnDArgument : "expr" "-5"
-			/// @DnDArgument : "expr_relative" "1"
-			/// @DnDArgument : "var" "bar_danger.danger_health"
-			bar_danger.danger_health += -5;
-			
-	
-	
-	}
+	/// @DnDArgument : "script" "decrement"
+	/// @DnDArgument : "arg" "5, bar_danger"
+	/// @DnDSaveInfo : "script" "5272b14e-2891-41de-97d4-02202b387b12"
+	script_execute(decrement, 5, bar_danger);
 
-	/// @DnDAction : YoYo Games.Common.Else
-	/// @DnDVersion : 1
-	/// @DnDHash : 13AE726D
+	/// @DnDAction : YoYo Games.Common.Execute_Script
+	/// @DnDVersion : 1.1
+	/// @DnDHash : 2FD64EAA
 	/// @DnDParent : 34D42FBB
-	else
-	{
-		
-	
-			/// @DnDAction : YoYo Games.Common.Variable
-			/// @DnDVersion : 1
-			/// @DnDHash : 7FA68469
-			/// @DnDParent : 13AE726D
-			/// @DnDArgument : "var" "bar_danger.danger_health"
-			bar_danger.danger_health = 0;
-			
-	
-	
-	}
+	/// @DnDArgument : "script" "increment"
+	/// @DnDArgument : "arg" "10, bar_trust"
+	/// @DnDSaveInfo : "script" "03d2da43-2e55-4b63-90b0-d4bab6b494f2"
+	script_execute(increment, 10, bar_trust);
 
-	/// @DnDAction : YoYo Games.Common.Variable
-	/// @DnDVersion : 1
-	/// @DnDHash : 67FF0022
+	/// @DnDAction : YoYo Games.Common.Execute_Script
+	/// @DnDVersion : 1.1
+	/// @DnDHash : 45A8643C
 	/// @DnDParent : 34D42FBB
-	/// @DnDArgument : "expr" "5"
-	/// @DnDArgument : "expr_relative" "1"
-	/// @DnDArgument : "var" "bar_knowledge.knowledge_health"
-	bar_knowledge.knowledge_health += 5;
-	
-
-	/// @DnDAction : YoYo Games.Common.Variable
-	/// @DnDVersion : 1
-	/// @DnDHash : 182F544A
-	/// @DnDParent : 34D42FBB
-	/// @DnDArgument : "expr" "10"
-	/// @DnDArgument : "expr_relative" "1"
-	/// @DnDArgument : "var" "bar_trust.trust_health"
-	bar_trust.trust_health += 10;
-	
+	/// @DnDArgument : "script" "increment"
+	/// @DnDArgument : "arg" "5, bar_knowledge"
+	/// @DnDSaveInfo : "script" "03d2da43-2e55-4b63-90b0-d4bab6b494f2"
+	script_execute(increment, 5, bar_knowledge);
 
 
 }
