@@ -7,6 +7,14 @@ value = 0;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
+/// @DnDHash : 185825A0
+/// @DnDArgument : "expr" ""danger""
+/// @DnDArgument : "var" "name"
+name = "danger";
+
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
 /// @DnDHash : 7229E5FC
 /// @DnDArgument : "expr" "false"
 /// @DnDArgument : "var" "Bvisible"

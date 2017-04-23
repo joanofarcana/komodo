@@ -5,13 +5,13 @@
     "name": "conversation_parent",
     "eventList": [
         {
-            "id": "569b0314-c0bd-41ea-9a4d-65d22d795c1c",
+            "id": "dfb83a9a-1312-4b86-8df4-9922c18f0fc2",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": true,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 2,
-            "eventtype": 7,
+            "enumb": 0,
+            "eventtype": 0,
             "m_owner": "a75ef0a1-8bcd-4b75-8764-9e73882ad5c2"
         }
     ],
