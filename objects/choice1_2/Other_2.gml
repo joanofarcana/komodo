@@ -4,9 +4,9 @@
 /// @DnDInput : 2
 /// @DnDArgument : "expr" ""Greetings.""
 /// @DnDArgument : "expr_1" "statement2"
-/// @DnDArgument : "var" "text"
+/// @DnDArgument : "var" "choicetext"
 /// @DnDArgument : "var_1" "targetstatement"
-text = "Greetings.";
+choicetext = "Greetings.";
 targetstatement = statement2;
 
 

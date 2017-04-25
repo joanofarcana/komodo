@@ -1,8 +1,8 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
-/// @DnDHash : 5EF3CD6D
-/// @DnDArgument : "expr" ""Pick choice 2.""
-/// @DnDArgument : "var" "text"
-text = "Pick choice 2.";
+/// @DnDHash : 59FD1BAF
+/// @DnDArgument : "expr" ""Pick a statement.""
+/// @DnDArgument : "var" "statementtext"
+statementtext = "Pick a statement.";
 
 

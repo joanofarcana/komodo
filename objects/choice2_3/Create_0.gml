@@ -2,7 +2,7 @@
 /// @DnDVersion : 1
 /// @DnDHash : 49380124
 /// @DnDArgument : "expr" ""This is choice 3.""
-/// @DnDArgument : "var" "text"
-text = "This is choice 3.";
+/// @DnDArgument : "var" "chotext"
+chotext = "This is choice 3.";
 
 

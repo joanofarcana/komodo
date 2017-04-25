@@ -19,11 +19,11 @@ draw_set_alpha(($FF000000 >> 24) / $ff);
 /// @DnDArgument : "x_relative" "1"
 /// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "caption" ""Choice: ""
-/// @DnDArgument : "var" "text"
+/// @DnDArgument : "var" "choicetext"
 
 {
 	var l706AF3EF_0 = x + 0;
 	var l706AF3EF_1 = y + 0;
-	draw_text(l706AF3EF_0, l706AF3EF_1, string("Choice: ") + string(text));
+	draw_text(l706AF3EF_0, l706AF3EF_1, string("Choice: ") + string(choicetext));
 }
 

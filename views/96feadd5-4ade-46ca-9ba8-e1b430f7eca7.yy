@@ -11,7 +11,8 @@
         "b15fb160-9d27-4c2b-8cf9-d42ecace8e88",
         "223aa960-9557-463f-a976-77062572bf91",
         "807dfcc3-01a5-4827-9e1b-a906cfbe0116",
-        "dfaf66a4-5bfe-4200-b868-f3122134ee69"
+        "dfaf66a4-5bfe-4200-b868-f3122134ee69",
+        "92c40ddd-88d6-42d2-a058-73425b00b0c3"
     ],
     "filterType": "GMObject",
     "folderName": "choices",

@@ -7,12 +7,12 @@
 /// @DnDArgument : "var" "choices"
 /// @DnDArgument : "var_1" "back"
 /// @DnDArgument : "var_2" "stop"
-/// @DnDArgument : "var_3" "text"
+/// @DnDArgument : "var_3" "statementtext"
 with(all) {
 choices = 0;
 back = 0;
 stop = 0;
-text = "Hello Statement World!";
+statementtext = "Hello Statement World!";
 
 }
 
