@@ -1,28 +1,36 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 65C1EAEA
-/// @DnDInput : 4
-/// @DnDApplyTo : all
-/// @DnDArgument : "expr_3" ""Hello Statement World!""
 /// @DnDArgument : "var" "choices"
-/// @DnDArgument : "var_1" "back"
-/// @DnDArgument : "var_2" "stop"
-/// @DnDArgument : "var_3" "statementtext"
-with(all) {
 choices = 0;
-back = 0;
-stop = 0;
-statementtext = "Hello Statement World!";
 
-}
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 1C080155
+/// @DnDArgument : "var" "back"
+back = 0;
+
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 1A92EE53
+/// @DnDArgument : "var" "stop"
+stop = 0;
+
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 57B97F1E
+/// @DnDArgument : "expr" ""Hello Statement World""
+/// @DnDArgument : "var" "statementtext"
+statementtext = "Hello Statement World";
+
 
 /// @DnDAction : YoYo Games.Data Structures.Create_List
 /// @DnDVersion : 1
 /// @DnDHash : 4103AAFC
-/// @DnDApplyTo : all
 /// @DnDArgument : "var" "choices"
-with(all) {
 choices = ds_list_create();
 
-}
 
